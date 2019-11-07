@@ -2,7 +2,7 @@ public class ProfEfetivo extends Professor{
 private int tempServico;
 
 
-public ProfEfetivo (String n, String ce, int ts){
+public ProfEfetivo (String n, Servidor ce, int ts){
 super(n,ce);
 this.setTempServico(ts);
 }
