@@ -1,7 +1,7 @@
 public class ProfSub extends Professor {
 private String dataTermCont;
 
-public ProfSub( String n, String ce, String dttc){
+public ProfSub( String n, Servidor ce, String dttc){
 super (n,ce);
 this.setDataTermCont (dttc);
 }
