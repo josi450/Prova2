@@ -1,7 +1,7 @@
 public class ProfTemp extends Professor {
 private int horasTrab;
 
-public ProfTemp(String n, String ce, int ht){
+public ProfTemp(String n, Servidor ce, int ht){
 super(n,ce);
 this.setHorasTrab(ht);
 }
