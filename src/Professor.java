@@ -1,15 +1,15 @@
 public class Professor extends Servidor{
-private String coordEnsino;
+private Servidor coordEnsino;
 
 
-public Professor(String n, String ce){
+public Professor(String n, Servidor ce){
 super(n);
 this.setCoordEnsino(ce);
 }
 public String getCoordEnsino(){
 return this.coordEnsino;
 }
-public void setCoordEnsino(String ce){
+public void setCoordEnsino(Servidor ce){
     this.coordEnsino=ce;
 }
 }
